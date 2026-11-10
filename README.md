@@ -73,6 +73,7 @@
 - 只在两个门都已放置、且门面可见时才执行渲染，避免无效开销。
 
 相关文件：[PortalCamera.cs](Scripts/PortalCamera.cs)
+<img width="684" height="577" alt="image" src="https://github.com/user-attachments/assets/434ac6e3-62d1-4794-aa5e-db71af2fa21e" />
 
 ### 2.3 斜截近平面裁剪
 
@@ -276,6 +277,7 @@ portalCamera.projectionMatrix = newMatrix;
 ---
 
 ## 6. 深度性能优化分析
+<img width="900" height="757" alt="70e72929fe5d4808295e87d373d8b8c0" src="https://github.com/user-attachments/assets/90093a49-3cfc-4528-968a-4133f0aa3396" />
 
 > 本节按 **CPU / Rendering / Memory / GPU** 四条线整理，数据来自项目实测、Frame Debugger 与 RenderDoc 抓帧。场景级设置（Static Batching、Culling Mask、阴影开关、贴图导入等）属于完整工程配置；本仓库的精选代码只保留核心运行路径。
 
@@ -498,6 +500,7 @@ portal.Renderer.SetPropertyBlock(block);
 | GPU：过度绘制 | 未量化 | 无红色高危区域 | Quad Overdraw |
 
 
+<img width="900" height="511" alt="5a05519e4ddab1f333bf1d4e40b31345" src="https://github.com/user-attachments/assets/65fc2ec4-9a19-4fce-bf3e-f3b7497a7eb3" />
 
 ### 6.6 结论
 
