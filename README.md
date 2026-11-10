@@ -1,4 +1,4 @@
-<img width="684" height="577" alt="01" src="https://github.com/user-attachments/assets/a754f5bb-571c-4a07-9ff1-ff70c08c8dfa" /># URP Portal Rendering
+# URP Portal Rendering
 
 ### 实时递归传送门 · 斜截视锥 · 自定义 PBR / IBL · RenderDoc 性能剖析
 
@@ -35,7 +35,7 @@
 - 门面叠加 FBM 域扭曲、Fresnel 边缘光与 HDR 描边；
 - 自定义 PBR Shader 接入 URP 主光、阴影、SH 间接漫反射与反射探针镜面 IBL；
 - 穿门瞬间由 URP `ScriptableRendererFeature` 触发径向拉伸 + 色差后处理。
-![Uploading image.png…]()
+<img width="684" height="577" alt="01" src="https://github.com/user-attachments/assets/ba869d1f-1c1b-4739-8d15-5ab662e668c3" />
 
 > 本仓库是 **作品集精选源码**：保留 11 个核心 C# 脚本与 4 个 Shader，不包含完整 Scene、模型、材质、贴图与 `Library` 等生成目录。
 
